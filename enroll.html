@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll Now</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Peel Global</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="product.html">Curriculums</a>
+            <a href="terms.html">Terms</a>
+        </div>    
+        <a href="enroll.html" class="btn-primary">Enroll Now</a>
+    </nav>
+
+    <section class="enroll-hero">
+        <div class="hero-container">
+            <h1>Enroll in Peel Global Courses</h1>
+            <p>Take the first step towards becoming a web developer. Fill out the form below to secure your spot.</p>
+        </div>
+    </section>
+
+    <section class="enroll-section">
+    <div class="container enroll-container">
+        <form class="enroll-form">
+            <h2>Enrollment Form</h2>
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="school">School Name</label>
+            <input type="text" id="school" name="school" placeholder="High School Name" required>
+
+            <label for="program">Select Program</label>
+            <select id="program" name="program" required>
+                <option value="">-- Choose a Program --</option>
+                <option value="frontend">Frontend Development</option>
+                <option value="backend">Backend Development</option>
+                <option value="fullstack">Full Stack Development</option>
+            </select>
+
+            <button type="submit" class="btn-primary">Submit Enrollment</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2026 Peel Global. All rights reserved.
+</footer>
+
+</body>
+</html>
